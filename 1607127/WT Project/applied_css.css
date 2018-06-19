@@ -1,0 +1,208 @@
+<style>
+@import url(https://fonts.googleapis.com/css?family=Cinzel:700);
+/*#headiing {
+  
+}*/
+@font-face{
+	font-family : Kavivanar;
+	src : url("https://fonts.google.com/specimen/Kavivanar");
+}
+*{
+	font-family : Kavivanar;
+}
+#startOfPage #approved{
+	color:green;
+}
+#image{
+	column-count : 2;
+}
+#startOfPage{
+	column-count : 2;
+}
+.headiing{
+color : blue;
+text-align : right;
+font-size: 3em;
+font-weight : bold;
+/*font-family: 'Tangerine', serif;
+  font-size: 48px;*/
+ font-family: 'Cinzel', serif;
+text-shadow : 3px 3px 10px black;
+
+}
+#middle_of_page{
+	width : 1340px;
+	column-count : 3;
+	
+}
+#middle_of_page #btns{
+	width : 400px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#middle_of_page #btns a{
+	color : white;
+}
+}
+#abc ul{
+	
+    margin: 0px;
+	padding : 0px;
+    background-color: black;
+	color : white;
+	
+}
+/*marquee{
+    white-space:nowrap;
+	display : inline;
+	overflow: hidden;
+}
+marquee p{
+	display: inline-block;
+}*/
+#abc ul li a{
+	color : white;
+	text-decoration: none;
+	display : block;
+}
+#abc ul li{
+	width:200px;
+	height:40px;
+	float: left;
+	background-color :black;
+	color: white;
+	text-decoration: none;
+	font-size : 20px;
+	line-height : 40px;
+	text-align : center;
+	list-style-type: none;
+}
+
+#abc li a:hover{
+	background-color: green;
+	text-decoration: none;
+}
+
+#abc ul li ul li{
+	display :  none;
+	text-align : center;
+	text-height : 10px;
+}
+#abc ul li:hover ul li{
+	display : block;
+	
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius : 50%;
+  height : 70px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	text-decoration : none;
+}
+
+
+#gif{
+	float : right;
+}
+#news{
+	background-color : #072d4f;
+	color : #ff3333;
+	display : block;
+	height : 380px;
+	width : 300px;
+	/*margin : 0px;
+	padding : 0px;
+	font-family : Arial;
+
+	font-size : 16px;*/
+	
+}
+#news ol #newsContent{
+	
+	overflow : hidden;	
+	text-align-last: justify;
+	margin-left : 0px;
+	padding: 0px;
+	}
+#news ol li{
+	list-style-type: none;	
+	}
+#news a{
+	color: white;
+}
+#news #newsHeading{
+	background-color: red;
+	color: white;
+	width : 300px;
+	text-align : center;
+	padding : 0px; 
+	
+}
+#aboutUs{
+	width : 1340px;
+	background-color: red;
+	color : white;
+	text-align : center;
+}
+hr{
+	border-width : 1px;
+	border-color : red;
+	border-style : solid;
+}
+#endOfPage{
+	background-color : skyblue;
+	color : red;
+	height : 200px;
+	width : 1340px;	
+	column-count : 3;
+	padding : 20px;
+}
+#endOfPage a{
+	color : green;
+	text-decoration: none;
+}
+#endOfPage a:hover{
+	text-decoration : underline;
+	display : inline;
+	}
+#endOfPage h4{
+	text-align : center;
+}	
+/*#endCenter{
+	text-align : center;
+}*/
+#developer{
+	background-color : skyblue;
+	color : red;
+
+}
+</style>
